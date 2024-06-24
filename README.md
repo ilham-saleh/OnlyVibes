@@ -1,1 +1,1 @@
-# OnlyVibes
+# OnlyVibes - name changed and contains only small letters "onlyvibes"

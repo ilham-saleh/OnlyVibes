@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AuthButtons from "./AuthButtons";
 
 const HeroSection = () => {
   return (
@@ -30,13 +31,13 @@ const HeroSection = () => {
             NOT{" "}
             <span className="bg-red-500 px-2 font-bold text-white">OTHERS</span>
           </p>
-          {/* <AuthButtons /> */}
+          <AuthButtons />
         </div>
       </div>
 
       <div className="flex-1 relative overflow-hidden justify-center items-center hidden md:flex">
         <Image
-          src={"/horse-1.png"}
+          src={"/horse-1.jpg"}
           alt="Horse"
           fill
           className="object-cover opacity-90 pointer-events-none select-none h-full"

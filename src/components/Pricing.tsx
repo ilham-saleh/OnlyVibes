@@ -39,8 +39,8 @@ export const tiers: PricingTier[] = [
   {
     name: "Premium Plan",
     id: "0",
-    price: { "1": "£6.65", "2": "£79.80" },
-    discountPrice: { "1": "£4.99", "2": "£59.88" },
+    price: { "1": "$89", "2": "$999" },
+    discountPrice: { "1": "$59", "2": "$499" },
     description: `Get access to our exclusive content. Cancel anytime.`,
     features: [
       `Access to all premium content`,
